@@ -1,0 +1,38 @@
+# Arduino IDE 编译生成的临时文件
+*.hex
+*.bin
+*.elf
+*.eep
+*.map
+*.lst
+*.sym
+*.lss
+*.dep
+
+# ESP32 专用编译产物
+*.partitions.bin
+*.bootloader.bin
+*.boot_app0.bin
+
+# Arduino IDE 缓存和配置文件
+build/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 平台IO 相关文件
+.pio/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 其他不需要上传的文件
+*.log
+*.zip
+*.rar
+*.7z
