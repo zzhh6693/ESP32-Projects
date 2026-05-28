@@ -34,7 +34,7 @@ void setup() {
   // 清屏，开始绘制车标
   display.clearDisplay();
 
-  // --- 绘制奔驰三叉星车标 ---
+  // --- 绘制奔驰三叉星车标 ----
   // 1. 画双层外圆边框
   display.drawCircle(LOGO_CENTER_X, LOGO_CENTER_Y, LOGO_R, SSD1306_WHITE);
   display.drawCircle(LOGO_CENTER_X, LOGO_CENTER_Y, LOGO_R-2, SSD1306_WHITE);
