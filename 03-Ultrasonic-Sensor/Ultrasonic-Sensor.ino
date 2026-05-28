@@ -1,6 +1,6 @@
 // ESP32 HC-SR04超声波测距 - 进阶优化版
 // 兼容所有ESP32 Arduino核心版本
-// 功能：非阻塞测量 + 5次滑动平均滤波
+// 功能：非阻塞测量 + 5次滑动平均滤波-
 // 硬件连接：VCC→5V, Trig→GPIO2, Echo→GPIO4, GND→GND
 
 const int trigPin = 2;
